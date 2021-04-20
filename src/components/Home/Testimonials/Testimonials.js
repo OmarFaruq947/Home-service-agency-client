@@ -4,7 +4,7 @@ import Testimonial from "../Testimonial/Testimonial";
 const Testimonials = () => {
   const [testimonialData, setTestimonialData] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:4000/Review")
+    fetch("https://safe-ocean-57547.herokuapp.com/Review")
       .then((res) => res.json())
       .then((data) => setTestimonialData(data));
   }, []);

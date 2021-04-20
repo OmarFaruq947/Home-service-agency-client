@@ -18,11 +18,6 @@ const Home = () => {
       <Testimonials></Testimonials>
       <Teams></Teams>
       <Contact></Contact>
-      {/* <FeaturedService></FeaturedService>
-            <MakeAppointment></MakeAppointment> */}
-
-      {/* <Blogs></Blogs> */}
-      {/* <Doctors></Doctors> */}
       <Footer></Footer>
     </div>
   );

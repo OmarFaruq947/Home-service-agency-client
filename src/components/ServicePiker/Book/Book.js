@@ -24,7 +24,7 @@ console.log('bookData.',Service_infoObject.Service_Name)
 
   
   const onSubmit = (data) => {
-    const url = `http://localhost:4000/OrderList`
+    const url = `https://safe-ocean-57547.herokuapp.com/OrderList`
     console.log(data)
     fetch(url, {
       method: "POST",
@@ -38,10 +38,6 @@ console.log('bookData.',Service_infoObject.Service_Name)
         }
       });
   };
-
-
-
-
 
     return (
         <div>

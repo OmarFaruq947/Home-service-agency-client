@@ -37,7 +37,7 @@ const AddService = () => {
     const productImg = {
       imageURL:imageURL
     };
-    const url = `http://localhost:4000/addService`
+    const url = `https://safe-ocean-57547.herokuapp.com/addService`
     console.log(data)
 
 
