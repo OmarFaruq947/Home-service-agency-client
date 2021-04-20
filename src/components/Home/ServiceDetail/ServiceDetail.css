@@ -1,0 +1,12 @@
+.serviceDetailsCard:hover{
+    box-shadow: 0px 0px 6px #003366;
+    border-radius: 10px;
+    
+}
+.service_img{
+    height: 80px;
+}
+.service_img:hover{
+   height: 85px;
+   transition: .5s;
+}

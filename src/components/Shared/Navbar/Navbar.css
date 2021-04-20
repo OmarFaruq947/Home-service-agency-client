@@ -1,0 +1,16 @@
+.customize_navbar{
+    box-shadow: 0px 0px 9px #003366;
+}
+.Menu_text_color{
+    color: #003366;
+}
+.logo{
+    height:75px;
+}
+@media screen and (max-width: 720px) {
+
+    .logo{
+        height:75px;
+        margin-left:20px;
+    }
+}

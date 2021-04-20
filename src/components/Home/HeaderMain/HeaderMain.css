@@ -1,0 +1,16 @@
+.my_pic_siz{
+    height: 708px;
+}
+.btn_bg_color{
+    background-color: #003366;
+    color: white;
+    border: none;
+    padding: 6px 30px;
+}
+
+@media screen and (max-width: 720px) {
+    .my_pic_siz{
+        height: 554px;
+    }
+
+}
